@@ -8,13 +8,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="page-header">
@@ -47,6 +48,11 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-menu-btn">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -58,7 +64,7 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="section-title hidden-title">Our benefits</h2>
+          <h2 class="section-title visually-hidden">Our benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
               <div class="icon-box">
@@ -111,7 +117,7 @@
           </ul>
         </div>
       </section>
-      <section class="section team-section">
+      <!-- <section class="section team-section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-section-list">
@@ -349,8 +355,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section">
+      </section> -->
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -464,9 +470,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="whole-footer">
+    <!-- <footer class="whole-footer">
       <div class="container footer-container">
         <div class="footer-content">
           <a href="./index.html" class="logo"
@@ -530,9 +536,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
       <div class="modal-window">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -626,6 +632,6 @@
           <button class="feedback-form-submit-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
